@@ -1,4 +1,4 @@
-**CSDN上配套的配置环境的Dockerfile & python脚本**
+**CSDN上配套的配置RL相关环境的Dockerfile & python脚本**
 
 CSDN链接如下：
 
