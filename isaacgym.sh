@@ -22,3 +22,19 @@ cd isaacgym/python || exit 1
 pip install -e .
 
 echo "Isaac Gym 安装完成 ✅"
+
+# -----------------------------
+# Install screen & xvfb
+# -----------------------------
+echo "Installing screen and xvfb..."
+
+sudo apt update
+sudo apt install -y \
+    screen \
+    xvfb \
+    x11-utils \
+    mesa-utils
+
+echo "screen and xvfb installed."
+
+
